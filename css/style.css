@@ -1,0 +1,15 @@
+/* 
+    ------------------
+    Layout propperties
+    ------------------
+*/
+
+
+
+/*  Navigation */
+
+.clearfix::after { 
+    content: ""; 
+    clear: both; 
+    display: table; 
+}
