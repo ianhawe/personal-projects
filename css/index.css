@@ -1,0 +1,20 @@
+h1 {
+  color: #3a1375;
+  font-size: 25px;
+  padding-top: 2.25em;
+}
+.banner {
+  background-color: #8d5bd8;
+  padding: 3em 0;
+  color: white;
+}
+.banner img {
+  border-radius: 100px;
+}
+.nav li {
+  color: #8d5bd8;
+}
+.banner-slogan{
+  font-size:1.4em;
+}
+
