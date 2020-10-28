@@ -55,6 +55,9 @@ footer h3 {
   .tertiary {
     text-align: left;
   }
+  .tertiary,  .tertiary h2{
+    padding-left: 1em;
+  }
 
   /* 2 Column Layout */
   .primary {
@@ -78,14 +81,18 @@ footer h3 {
 }
 
 @media (min-width: 733px) {
+  /* Resetting Values */
+  .tertiary,  .tertiary h2{
+    padding-left: 0;
+  }
   .height-container {
     min-height: 0;
   }
+  /* 3 Column Layout */
   .primary,
-  .secondary {
-    float: left;
-  }
+  .secondary,
   .tertiary {
+    text-align: center;
     float: left;
   }
   .primary {
@@ -96,5 +103,16 @@ footer h3 {
   }
   .tertiary {
     width: 30%;
+  }
+}
+
+@media (min-width: 1000px) {
+  header h1{
+    padding-left: 1em;
+    float: left;
+  }
+  header ul{
+    margin: 1em 0;
+    float: right;
   }
 }
