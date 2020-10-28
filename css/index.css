@@ -18,7 +18,7 @@ h1 {
   color: #8d5bd8;
   padding: 0.5em;
   margin-bottom: 1em;
-  font:bold;
+  font: bold;
 }
 .nav li:hover {
   color: #3a1375;
@@ -27,12 +27,74 @@ h1 {
   font-size: 1.4em;
 }
 
-footer{
+footer {
   background: #d9e4ea;
-	padding: 2em 0;
-	margin-top: 30px;
+  padding: 2em 0;
+  margin-top: 30px;
 }
 footer h3 {
   font-size: 16px;
-  color:#3a1375;
+  color: #3a1375;
+}
+
+/* 
+    ------------------
+      Media Queries
+    ------------------
+*/
+@media (min-width: 597px) {
+  .nav li {
+    display: inline-block;
+  }
+  .main-context {
+    display: block;
+  }
+  .height-container {
+    min-height: 950px;
+  }
+  .tertiary {
+    text-align: left;
+  }
+
+  /* 2 Column Layout */
+  .primary {
+    float: left;
+    width: 40%;
+  }
+  .secondary {
+    float: right;
+    width: 60%;
+  }
+  .secondary img {
+    max-width: 350px;
+    max-height: 350px;
+  }
+
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+}
+
+@media (min-width: 733px) {
+  .height-container {
+    min-height: 0;
+  }
+  .primary,
+  .secondary {
+    float: left;
+  }
+  .tertiary {
+    float: left;
+  }
+  .primary {
+    width: 30%;
+  }
+  .secondary {
+    width: 40%;
+  }
+  .tertiary {
+    width: 30%;
+  }
 }

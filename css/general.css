@@ -44,21 +44,3 @@ header h1 {
   list-style-type: none;
   padding: 0.5em;
 }
-
-/* 
-    ------------------
-      Media Queries
-    ------------------
-*/
-@media (min-width: 597px) {
-  /* Header */
-  .clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-
-  .nav li {
-    display: inline;
-  }
-}
