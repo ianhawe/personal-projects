@@ -50,19 +50,14 @@ header h1 {
       Media Queries
     ------------------
 */
-@media (min-width: 600px) {
+@media (min-width: 597px) {
   /* Header */
   .clearfix::after {
     content: "";
     clear: both;
     display: table;
   }
-  h1 {
-    float: left;
-  }
-  .nav {
-    float: right;
-  }
+
   .nav li {
     display: inline;
   }
