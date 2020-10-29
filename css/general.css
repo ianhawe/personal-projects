@@ -7,26 +7,40 @@
   box-sizing: border-box;
 }
 
-body {
-  font-family: "Varela Round", sans-serif;
-  width: 80%;
+body,
+img {
+  font-family: "Varela Round", "calibri", "arial";
   margin: auto;
   text-align: center;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+header {
+  margin-top: 20px;
+}
+header h1 {
+  font-size: 1.25em;
+}
+
+.main-context img {
+  width: 80%;
+}
+.main-context p {
+  padding-right: 1em;
+  padding-left: 1em;
 }
 
 /*  Navigation */
 
 .nav {
   padding: 0;
+  margin-bottom: 1.5em;
 }
 .nav li {
-  border: 1px solid blue;
-  font-size: 1.5em;
+  /* border: 1px solid blue; */
+  font-size: 0.95em;
   list-style-type: none;
-}
-
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
+  padding: 0.5em;
 }
