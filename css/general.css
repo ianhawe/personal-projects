@@ -1,0 +1,32 @@
+/* 
+    ------------------
+    Layout propperties
+    ------------------
+*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Varela Round", sans-serif;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+/*  Navigation */
+
+.nav {
+  padding: 0;
+}
+.nav li {
+  border: 1px solid blue;
+  font-size: 1.5em;
+  list-style-type: none;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
