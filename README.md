@@ -1,5 +1,5 @@
 # Description
-For this project I have created a simple website using box-sizing. This is a simple responsive website for the sake of learning. for a quick view of the project: https://ianhawe.xyz/
+For this project I have created a simple website using box-sizing. This is a simple responsive website for the sake of learning.
 
 ## Technologies Used
 * HTML
